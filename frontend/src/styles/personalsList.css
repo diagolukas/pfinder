@@ -1,0 +1,32 @@
+/* src/styles/personalsList.css */
+.personals-list {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .personals-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .personal-card {
+    cursor: pointer;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .personal-card h2 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .personal-card p {
+    font-size: 16px;
+    color: #666;
+  }
+  
